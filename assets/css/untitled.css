@@ -1,0 +1,25 @@
+img, svg {
+  vertical-align: middle;
+  width: 50%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .row-cols-md-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+    padding-bottom: 5px;
+  }
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+a {
+  transition: all .2s ease-in-out;
+  color: #fff;
+  text-decoration: none;
+}
+
